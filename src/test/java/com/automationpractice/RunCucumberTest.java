@@ -1,5 +1,8 @@
 package com.automationpractice;
 
+//Task
+//Имплементация домашки с 10 го урока на Cucmber
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;

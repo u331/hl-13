@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c08f62-31dd-4253-8047-e37e467a9c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hl-13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/WebDriverFactory/engine/DriverTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/WebDriverFactory/engine/WebDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/pages/OrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com.automationpractice/features/Task02Test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/Stepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.automationpractice/Task02Test.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com.automationpractice/Task02Test.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com.automationpractice/features/Task02Test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.automationpractice/features/Task02Test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/Stepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com.automationpractice/features/Task02Test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com.automationpractice/features/Task02Test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automationpractice/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automationpractice/WebDriverFactory/engine/WebDriverFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/WebDriverFactory/engine/WebDriverFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automationpractice/WebDriverFactory/engine/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/WebDriverFactory/engine/WebDriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.automationpractice.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.automationpractice.RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.automationpractice.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.automationpractice.RunCucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automationpractice/Stepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automationpractice/Stepdefs.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: hl-13">
+  <component name="RunManager" selected="Cucumber java.Feature: Task02Test (1)">
     <configuration name="All Features in: hl-13" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +79,24 @@
       <module name="hl-13" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="All Features in: hl-13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Task02Test (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/com.automationpractice/features/Task02Test.feature" />
+      <option name="GLUE" value="com.automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="hl-13" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Task02Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -148,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Task02Test (1)" />
         <item itemvalue="Cucumber java.All Features in: hl-13" />
         <item itemvalue="TestNG.RunCucumberTest" />
         <item itemvalue="Cucumber java.Feature: Task02Test" />
